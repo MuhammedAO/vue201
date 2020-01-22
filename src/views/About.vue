@@ -1,5 +1,20 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <input
+      type="text"
+      class="bg-gray-300 px-5 py-2"
+      autocomplete="off"
+      v-model="state"
+    />
   </div>
 </template>
+
+<script>
+export default {
+  data: function() {
+    return {
+      state: " "
+    };
+  }
+};
+</script>
