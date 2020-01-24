@@ -1,9 +1,9 @@
 <template>
   <div class="about flex flex-col items-center">
-    <!-- <div class="absolute inset-0 z-0" @click="modal = false"></div> -->
+    <div class="absolute inset-0 z-0" @click="modal = false"></div>
     <input
       type="text"
-      class="bg-gray-300 px-5 py-2 z-10 focus:outline-none"
+      class="bg-gray-300 px-5 py-2 z-10"
       autocomplete="off"
       v-model="state"
       @input="filterStates"
