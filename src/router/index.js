@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Pricing from "../components/Pricing";
+import AutoFormat from "../components/AutoFormat";
 
 Vue.use(VueRouter);
 
@@ -10,6 +11,11 @@ const routes = [
     path: "/",
     name: "home",
     component: Home
+  },
+  {
+    path: "/autoformat",
+    name: "autoformat",
+    component: AutoFormat
   },
 
   {
