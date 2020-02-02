@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Pricing from "../components/Pricing";
-import AutoFormat from "../components/AutoFormat";
+import Forms from "../views/Forms";
 
 Vue.use(VueRouter);
 
@@ -13,9 +13,9 @@ const routes = [
     component: Home
   },
   {
-    path: "/autoformat",
-    name: "autoformat",
-    component: AutoFormat
+    path: "/forms",
+    name: "forms",
+    component: Forms
   },
 
   {
